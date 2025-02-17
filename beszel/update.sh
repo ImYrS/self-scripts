@@ -38,7 +38,7 @@ else
 
     # 下载最新的二进制程序
     echo "正在下载最新版本并解压"
-    curl -sL "https://ghp.ci/https://github.com/henrygd/beszel/releases/latest/download/beszel-agent_$(uname -s)_$(uname -m | sed 's/x86_64/amd64/' | sed 's/armv7l/arm/' | sed 's/aarch64/arm64/').tar.gz" | tar -xz -O beszel-agent | tee ./beszel-agent >/dev/null
+    curl -sL "https://ghfast.top/https://github.com/henrygd/beszel/releases/latest/download/beszel-agent_$(uname -s)_$(uname -m | sed 's/x86_64/amd64/' | sed 's/armv7l/arm/' | sed 's/aarch64/arm64/').tar.gz" | tar -xz -O beszel-agent | tee ./beszel-agent >/dev/null
     chmod +x beszel-agent
 
     # 备份旧程序并覆盖
